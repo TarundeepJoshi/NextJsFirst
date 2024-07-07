@@ -275,8 +275,8 @@ function Skills() {
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dc8070] max-w-[150px] min-w-[150px]">
                   <div>
                     <svg
-                      width="32px"
-                      height="32px"
+                      width="22px"
+                      height="22px"
                       viewBox="0 -17 256 256"
                       version="1.1"
                       xmlns="http://www.w3.org/2000/svg"
@@ -316,7 +316,7 @@ function Skills() {
                       src="https://img.icons8.com/?size=100&id=0HyDNss5DL1B&format=png&color=000000"
                       alt="git"
                       loading="lazy"
-                      width={24}
+                      width={25}
                       height={0}
                     />
                   </div>
