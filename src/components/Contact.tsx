@@ -23,7 +23,7 @@ function Contact() {
           Have a question or want to work together?
         </h2>
         <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300 text-center">
-          Let's collaborate and discuss your project 🚀
+          Let&apos;s collaborate and discuss your project 🚀
         </p>
 
         <Email />

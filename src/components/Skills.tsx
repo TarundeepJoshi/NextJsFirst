@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 function Skills() {
   return (
@@ -27,11 +28,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
                       alt="javascript"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -43,11 +45,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
                       alt="typscript"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -59,11 +62,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
                       alt="html"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -75,11 +79,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=3BTBsJs5myRy&format=png&color=000000"
                       alt="css"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -93,11 +98,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#2da4b9] min-w-[140px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000"
                       alt="react"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -109,11 +115,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#2da4b9] min-w-[140px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=84710&format=png&color=000000"
                       alt="bootstrap"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -125,11 +132,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#2da4b9] min-w-[140px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000"
                       alt="tailwind"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -141,11 +149,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#2da4b9] min-w-[140px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
                       alt="firebase"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -159,11 +168,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#34c07c] min-w-[150px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
                       alt="nodejs"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -175,11 +185,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#34c07c] min-w-[150px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000"
                       alt="nextjs"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -191,11 +202,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#34c07c] min-w-[150px] md:min-w-[180px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=WNoJgbzDr3i2&format=png&color=000000"
                       alt="expressjs"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -209,11 +221,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dcab70] max-w-[150px] min-w-[150px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
                       alt="mongodb"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -225,11 +238,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dcab70] max-w-[150px] min-w-[150px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000"
                       alt="github"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -241,11 +255,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dcab70] max-w-[150px] min-w-[150px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=sBo1RJ3rjbje&format=png&color=000000"
                       alt="netlify"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -297,11 +312,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dc8070] max-w-[150px] min-w-[150px]">
                   <div>
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=0HyDNss5DL1B&format=png&color=000000"
                       alt="git"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
@@ -315,12 +331,12 @@ function Skills() {
               <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dc8070] max-w-[150px] min-w-[150px]">
                   <div>
-                    {" "}
-                    <img
+                    <Image
                       src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"
                       alt="vscode"
                       loading="lazy"
-                      style={{ width: "2rem" }}
+                      width={24}
+                      height={0}
                     />
                   </div>
                   <p className="font-grotesk text-gray-200 text-sm md:text-base">
