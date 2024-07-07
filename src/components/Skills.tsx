@@ -1,10 +1,9 @@
 "use client";
-import { BackgroundBeams } from "./ui/background-beams";
 
 function Skills() {
   return (
     <div
-      className="h-auto w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased"
+      className="h-auto w-full rounded-md relative flex flex-col items-center justify-center antialiased"
       id="skills"
     >
       <section className="mx-auto px-4 py-2 pb-7 max-w-[1050px]">
@@ -25,7 +24,7 @@ function Skills() {
 
           <div className="flex flex-nowrap flex-col gap-8 justify-center items-center ">
             <div className="flex-wrap flex gap-8 justify-center items-center">
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
                   <div>
                     <img
@@ -41,7 +40,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
                   <div>
                     <img
@@ -57,7 +56,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
                   <div>
                     <img
@@ -73,7 +72,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#CAA6F7] min-w-[135px] md:min-w-[180px]">
                   <div>
                     <img
@@ -91,7 +90,7 @@ function Skills() {
             </div>
 
             <div className="flex-wrap flex gap-6 justify-center items-center">
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#2da4b9] min-w-[140px] md:min-w-[180px]">
                   <div>
                     <img
@@ -107,7 +106,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#2da4b9] min-w-[140px] md:min-w-[180px]">
                   <div>
                     <img
@@ -123,7 +122,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#2da4b9] min-w-[140px] md:min-w-[180px]">
                   <div>
                     <img
@@ -139,7 +138,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#2da4b9] min-w-[140px] md:min-w-[180px]">
                   <div>
                     <img
@@ -157,7 +156,7 @@ function Skills() {
             </div>
 
             <div className="flex-wrap flex gap-6 justify-center items-center">
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#34c07c] min-w-[150px] md:min-w-[180px]">
                   <div>
                     <img
@@ -173,7 +172,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#34c07c] min-w-[150px] md:min-w-[180px]">
                   <div>
                     <img
@@ -189,7 +188,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#34c07c] min-w-[150px] md:min-w-[180px]">
                   <div>
                     <img
@@ -207,7 +206,7 @@ function Skills() {
             </div>
 
             <div className="flex-wrap flex gap-6 justify-center items-center">
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dcab70] max-w-[150px] min-w-[150px]">
                   <div>
                     <img
@@ -223,7 +222,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dcab70] max-w-[150px] min-w-[150px]">
                   <div>
                     <img
@@ -239,7 +238,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dcab70] max-w-[150px] min-w-[150px]">
                   <div>
                     <img
@@ -257,7 +256,7 @@ function Skills() {
             </div>
 
             <div className="flex-wrap flex gap-6 justify-center items-center">
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dc8070] max-w-[150px] min-w-[150px]">
                   <div>
                     <svg
@@ -295,7 +294,7 @@ function Skills() {
                 </div>
               </div>
 
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dc8070] max-w-[150px] min-w-[150px]">
                   <div>
                     <img
@@ -313,7 +312,7 @@ function Skills() {
             </div>
 
             <div className="flex-wrap flex gap-6 justify-center items-center">
-              <div className="relative ">
+              <div className="relative skill">
                 <div className="flex relative z-[1] justify-center gap-3 items-center bg-stone-800/20 px-4 py-2 border-[1px] border-gray-700 border-solid rounded-[5px] shadow-[6px_6px_0px_1px_#dc8070] max-w-[150px] min-w-[150px]">
                   <div>
                     {" "}
@@ -333,8 +332,6 @@ function Skills() {
           </div>
         </div>
       </section>
-
-      <BackgroundBeams />
     </div>
   );
 }

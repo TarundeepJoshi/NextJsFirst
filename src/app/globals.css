@@ -26,3 +26,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.skill {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  background-color: black;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+}

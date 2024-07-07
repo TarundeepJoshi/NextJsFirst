@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
@@ -7,6 +7,12 @@ import { TextArea } from "./ui/textArea";
 import { cn } from "@/utils/cn";
 
 export const Email = () => {
+  const [errors, setErrors] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
   const nameRef = useRef<HTMLInputElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
@@ -15,8 +21,34 @@ export const Email = () => {
   const templateId = "template_iodmomn";
   const publicKey = "yNLBs24r_qLVbflur";
 
+  const validateForm = () => {
+    let isValid = true;
+    let errors = { name: "", email: "", message: "" };
+
+    if (!nameRef.current?.value) {
+      errors.name = "Name is required";
+      isValid = false;
+    }
+    if (!emailRef.current?.value) {
+      errors.email = "Email is required";
+      isValid = false;
+    }
+    if (!messageRef.current?.value) {
+      errors.message = "Message is required";
+      isValid = false;
+    }
+
+    setErrors(errors);
+    return isValid;
+  };
+
   const sendEmail = (e: any) => {
     e.preventDefault();
+
+    if (!validateForm()) {
+      return;
+    }
+
     const templateParams = {
       from_name: nameRef.current?.value,
       from_email: emailRef.current?.value,
@@ -46,6 +78,7 @@ export const Email = () => {
         <LabelInputContainer>
           <Label htmlFor="firstname">Name</Label>
           <Input id="firstname" placeholder="Tyler" type="text" ref={nameRef} />
+          {errors.name && <span className="text-red-500">{errors.name}</span>}
         </LabelInputContainer>
       </div>
       <LabelInputContainer className="mb-4">
@@ -56,10 +89,14 @@ export const Email = () => {
           type="email"
           ref={emailRef}
         />
+        {errors.email && <span className="text-red-500">{errors.email}</span>}
       </LabelInputContainer>
       <LabelInputContainer className="mb-4">
-        <Label htmlFor="email">Message</Label>
+        <Label htmlFor="message">Message</Label>
         <TextArea id="message" placeholder="Enter text..." ref={messageRef} />
+        {errors.message && (
+          <span className="text-red-500">{errors.message}</span>
+        )}
       </LabelInputContainer>
 
       <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
@@ -73,6 +110,7 @@ export const Email = () => {
     </form>
   );
 };
+
 const BottomGradient = () => {
   return (
     <>

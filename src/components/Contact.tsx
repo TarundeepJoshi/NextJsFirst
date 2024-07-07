@@ -1,17 +1,15 @@
 "use client";
-import { Boxes } from "./ui/background-boxes";
 import { cn } from "@/utils/cn";
 import { Email } from "./Email";
 
 function Contact() {
   return (
     <div
-      className="h-auto p-10 relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center rounded-lg"
+      className="h-auto p-10 relative w-full overflow-hidden  flex flex-col items-center justify-center rounded-lg"
       id="contact"
     >
       <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
-      <Boxes />
       <h1
         className={cn(
           "text-2xl md:text-2xl lg:text-4xl text-white font-bold text-center mb-6 relative z-20"
