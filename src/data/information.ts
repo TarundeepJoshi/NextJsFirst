@@ -24,6 +24,6 @@ export const buttonsData = [
     id: 4,
     label: "Resume",
     icon: IoDocumentTextSharp,
-    url: "https://drive.google.com/file/d/1cjP1CQIIMvIPZCkLQFXRSUvUKfmGU9yQ/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1H_SKiXootnb5XaRNzugFyGpZUylASL_8/view?usp=sharing",
   },
 ];
